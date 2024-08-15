@@ -9,7 +9,7 @@ public class excedeLimite extends Exception {
     public String getMessage() {
         // TODO Auto-generated method stub
         // return super.getMessage();
-        return "Numero de candidatos selecionados";
+        return "Numero maximo de candidatos selecionados";
     }
 
 }

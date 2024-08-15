@@ -3,7 +3,8 @@ public class Array {
         String[] pessoas = { "Jesus", "Daniel", "Vic", "Dale", "Lucas", "Gaby" };
         int contador = 0;
 
-        System.out.println(pessoas.length);
+        System.out.println("Quantidade total de pessoas: " + pessoas.length);
+
         try {
             for (String pessoa : pessoas) {
                 adicionarPessoa(pessoa, contador);
@@ -22,9 +23,9 @@ public class Array {
 
         if (contador < arrayPessoa.length) {
             arrayPessoa[contador] = pessoas;
-            System.out.println("Pessoa: " + arrayPessoa[contador]);
+            System.out.println(arrayPessoa[contador] + " Foi Selecionado(a)!");
         } else {
-            throw new excedeLimite("Numero de candidatos selecionados");
+            throw new excedeLimite("Numero maximo de candidatos selecionados");
         }
     }
 }
