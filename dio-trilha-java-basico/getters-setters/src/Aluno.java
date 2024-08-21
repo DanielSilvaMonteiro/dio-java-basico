@@ -1,6 +1,6 @@
 public class Aluno {
-    String nome;
-    int idade;
+    private String nome;
+    private int idade;
 
     public String getNome() {
         return nome;

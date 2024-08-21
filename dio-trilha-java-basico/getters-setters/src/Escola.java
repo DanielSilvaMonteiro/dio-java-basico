@@ -10,7 +10,7 @@ public class Escola {
          * " anos");
          */
 
-        daniel.setNome("Daniel");
+        daniel.setNome("Daniel Monteiro");
         daniel.setIdade(32);
 
         System.out.println("O Aluno " + daniel.getNome() + " tem " + daniel.getIdade() + " anos");
